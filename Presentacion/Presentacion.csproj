@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9AF447F8-C646-4491-8064-18574831870E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Comun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\Comun\bin\Debug\Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Heredados, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\Heredados\bin\Debug\Heredados.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinControles, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\WinControles\bin\Debug\WinControles.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Desarrolador\wAgregarBotones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wAgregarBotones.designer.cs">
+      <DependentUpon>wAgregarBotones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrolador\wBoton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wBoton.designer.cs">
+      <DependentUpon>wBoton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrolador\wBotonesVentana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wBotonesVentana.designer.cs">
+      <DependentUpon>wBotonesVentana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrolador\wEditBoton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wEditBoton.designer.cs">
+      <DependentUpon>wEditBoton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrolador\wEditVentana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wEditVentana.designer.cs">
+      <DependentUpon>wEditVentana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desarrolador\wVentana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desarrolador\wVentana.designer.cs">
+      <DependentUpon>wVentana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FuncionesGenericas\Generico.cs" />
+    <Compile Include="Impresiones\Impresion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Impresion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisCueBco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisCueBco.designer.cs">
+      <DependentUpon>wLisCueBco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisIteAlm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisIteAlm.designer.cs">
+      <DependentUpon>wLisIteAlm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisTipDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisTipDoc.designer.cs">
+      <DependentUpon>wLisTipDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisForCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisForCon.designer.cs">
+      <DependentUpon>wLisForCon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisCue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisCue.designer.cs">
+      <DependentUpon>wLisCue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisEmp.designer.cs">
+      <DependentUpon>wLisEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisCeCo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisCeCo.designer.cs">
+      <DependentUpon>wLisCeCo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisAux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisAux.designer.cs">
+      <DependentUpon>wLisAux.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisItemE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisItemE.designer.cs">
+      <DependentUpon>wLisItemE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisItemG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisItemG.designer.cs">
+      <DependentUpon>wLisItemG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisPerEmpExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisPerEmpExt.designer.cs">
+      <DependentUpon>wLisPerEmpExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Listas\wLisUsuExt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Listas\wLisUsuExt.designer.cs">
+      <DependentUpon>wLisUsuExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarCuentas.designer.cs">
+      <DependentUpon>wCopiarAdicionarCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarItemsAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarItemsAlmacen.designer.cs">
+      <DependentUpon>wCopiarAdicionarItemsAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarFormatoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarFormatoContable.designer.cs">
+      <DependentUpon>wCopiarAdicionarFormatoContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditItemAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditItemAlmacen.Designer.cs">
+      <DependentUpon>wEditItemAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditTipoDocumento.Designer.cs">
+      <DependentUpon>wEditTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wImportarItemAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wImportarItemAlmacen.designer.cs">
+      <DependentUpon>wImportarItemAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wItemAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wItemAlmacen.designer.cs">
+      <DependentUpon>wItemAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCuentaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCuentaBanco.designer.cs">
+      <DependentUpon>wCuentaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditCuentaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditCuentaBanco.Designer.cs">
+      <DependentUpon>wEditCuentaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditFormatoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditFormatoContable.Designer.cs">
+      <DependentUpon>wEditFormatoContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wFormatoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wFormatoContable.designer.cs">
+      <DependentUpon>wFormatoContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCuenta.designer.cs">
+      <DependentUpon>wCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarAuxiliares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wCopiarAdicionarAuxiliares.designer.cs">
+      <DependentUpon>wCopiarAdicionarAuxiliares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditCuenta.designer.cs">
+      <DependentUpon>wEditCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditTablaEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditTablaEmpresa.designer.cs">
+      <DependentUpon>wEditTablaEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditTipoCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditTipoCambio.designer.cs">
+      <DependentUpon>wEditTipoCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wImportarCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wImportarCuenta.designer.cs">
+      <DependentUpon>wImportarCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wImportarFormatoContable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wImportarFormatoContable.designer.cs">
+      <DependentUpon>wImportarFormatoContable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wImportarAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wImportarAuxiliar.designer.cs">
+      <DependentUpon>wImportarAuxiliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wTablasEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wTablasEmpresa.designer.cs">
+      <DependentUpon>wTablasEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wTipoDocumento.designer.cs">
+      <DependentUpon>wTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wTipoCambio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wTipoCambio.designer.cs">
+      <DependentUpon>wTipoCambio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditAuxiliar.designer.cs">
+      <DependentUpon>wEditAuxiliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wEditTablaGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wEditTablaGeneral.designer.cs">
+      <DependentUpon>wEditTablaGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wAuxiliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wAuxiliar.designer.cs">
+      <DependentUpon>wAuxiliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maestros\wTablasGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maestros\wTablasGeneral.designer.cs">
+      <DependentUpon>wTablasGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\wAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\wAcceso.designer.cs">
+      <DependentUpon>wAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\wBloquearSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\wBloquearSistema.designer.cs">
+      <DependentUpon>wBloquearSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal\wMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal\wMenu.Designer.cs">
+      <DependentUpon>wMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wAgregarItemCajaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wAgregarItemCajaBanco.Designer.cs">
+      <DependentUpon>wAgregarItemCajaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wCajaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wCajaBanco.Designer.cs">
+      <DependentUpon>wCajaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wDetalleRegistroCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wDetalleRegistroCompra.Designer.cs">
+      <DependentUpon>wDetalleRegistroCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wEditCajaBanco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wEditCajaBanco.Designer.cs">
+      <DependentUpon>wEditCajaBanco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wEditRegistroCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wEditRegistroCompra.Designer.cs">
+      <DependentUpon>wEditRegistroCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\wRegistroCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\wRegistroCompra.designer.cs">
+      <DependentUpon>wRegistroCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sistema\wAsignarEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wAsignarEmpresas.designer.cs">
+      <DependentUpon>wAsignarEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wAsignarPermisosPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wAsignarPermisosPerfil.designer.cs">
+      <DependentUpon>wAsignarPermisosPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wAsignarPermisosUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wAsignarPermisosUsuario.designer.cs">
+      <DependentUpon>wAsignarPermisosUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wCambiarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wCambiarClave.designer.cs">
+      <DependentUpon>wCambiarClave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wEditEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wEditEmpresa.designer.cs">
+      <DependentUpon>wEditEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wEditPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wEditPerfil.designer.cs">
+      <DependentUpon>wEditPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wEditPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wEditPeriodo.designer.cs">
+      <DependentUpon>wEditPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wEditUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wEditUsuario.designer.cs">
+      <DependentUpon>wEditUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wEmpresa.designer.cs">
+      <DependentUpon>wEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wParametroEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wParametroEmpresa.designer.cs">
+      <DependentUpon>wParametroEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wPerfil.designer.cs">
+      <DependentUpon>wPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wPeriodo.designer.cs">
+      <DependentUpon>wPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\wUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\wUsuario.designer.cs">
+      <DependentUpon>wUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Varios\wCopiaSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varios\wCopiaSeguridad.designer.cs">
+      <DependentUpon>wCopiaSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Varios\wParametrosGenerales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Varios\wParametrosGenerales.designer.cs">
+      <DependentUpon>wParametrosGenerales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasComunes\wFiltraEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanasComunes\wFiltraEstado.designer.cs">
+      <DependentUpon>wFiltraEstado.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Desarrolador\wAgregarBotones.resx">
+      <DependentUpon>wAgregarBotones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desarrolador\wBoton.resx">
+      <DependentUpon>wBoton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desarrolador\wBotonesVentana.resx">
+      <DependentUpon>wBotonesVentana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desarrolador\wEditBoton.resx">
+      <DependentUpon>wEditBoton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desarrolador\wEditVentana.resx">
+      <DependentUpon>wEditVentana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desarrolador\wVentana.resx">
+      <DependentUpon>wVentana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisCueBco.resx">
+      <DependentUpon>wLisCueBco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisIteAlm.resx">
+      <DependentUpon>wLisIteAlm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisTipDoc.resx">
+      <DependentUpon>wLisTipDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisForCon.resx">
+      <DependentUpon>wLisForCon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisCue.resx">
+      <DependentUpon>wLisCue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisEmp.resx">
+      <DependentUpon>wLisEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisCeCo.resx">
+      <DependentUpon>wLisCeCo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisAux.resx">
+      <DependentUpon>wLisAux.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisItemE.resx">
+      <DependentUpon>wLisItemE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisItemG.resx">
+      <DependentUpon>wLisItemG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisPerEmpExt.resx">
+      <DependentUpon>wLisPerEmpExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Listas\wLisUsuExt.resx">
+      <DependentUpon>wLisUsuExt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCopiarAdicionarCuentas.resx">
+      <DependentUpon>wCopiarAdicionarCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCopiarAdicionarItemsAlmacen.resx">
+      <DependentUpon>wCopiarAdicionarItemsAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCopiarAdicionarFormatoContable.resx">
+      <DependentUpon>wCopiarAdicionarFormatoContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditItemAlmacen.resx">
+      <DependentUpon>wEditItemAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditTipoDocumento.resx">
+      <DependentUpon>wEditTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wImportarItemAlmacen.resx">
+      <DependentUpon>wImportarItemAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wItemAlmacen.resx">
+      <DependentUpon>wItemAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCuentaBanco.resx">
+      <DependentUpon>wCuentaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditCuentaBanco.resx">
+      <DependentUpon>wEditCuentaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditFormatoContable.resx">
+      <DependentUpon>wEditFormatoContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wFormatoContable.resx">
+      <DependentUpon>wFormatoContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCuenta.resx">
+      <DependentUpon>wCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wCopiarAdicionarAuxiliares.resx">
+      <DependentUpon>wCopiarAdicionarAuxiliares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditCuenta.resx">
+      <DependentUpon>wEditCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditTablaEmpresa.resx">
+      <DependentUpon>wEditTablaEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditTipoCambio.resx">
+      <DependentUpon>wEditTipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wImportarCuenta.resx">
+      <DependentUpon>wImportarCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wImportarFormatoContable.resx">
+      <DependentUpon>wImportarFormatoContable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wImportarAuxiliar.resx">
+      <DependentUpon>wImportarAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wTablasEmpresa.resx">
+      <DependentUpon>wTablasEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wTipoDocumento.resx">
+      <DependentUpon>wTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wTipoCambio.resx">
+      <DependentUpon>wTipoCambio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditAuxiliar.resx">
+      <DependentUpon>wEditAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wEditTablaGeneral.resx">
+      <DependentUpon>wEditTablaGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wAuxiliar.resx">
+      <DependentUpon>wAuxiliar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maestros\wTablasGeneral.resx">
+      <DependentUpon>wTablasGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\wAcceso.resx">
+      <DependentUpon>wAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\wBloquearSistema.resx">
+      <DependentUpon>wBloquearSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal\wMenu.resx">
+      <DependentUpon>wMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wAgregarItemCajaBanco.resx">
+      <DependentUpon>wAgregarItemCajaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wCajaBanco.resx">
+      <DependentUpon>wCajaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wDetalleRegistroCompra.resx">
+      <DependentUpon>wDetalleRegistroCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wEditCajaBanco.resx">
+      <DependentUpon>wEditCajaBanco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wEditRegistroCompra.resx">
+      <DependentUpon>wEditRegistroCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\wRegistroCompra.resx">
+      <DependentUpon>wRegistroCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sistema\wAsignarEmpresas.resx">
+      <DependentUpon>wAsignarEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wAsignarPermisosPerfil.resx">
+      <DependentUpon>wAsignarPermisosPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wAsignarPermisosUsuario.resx">
+      <DependentUpon>wAsignarPermisosUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wCambiarClave.resx">
+      <DependentUpon>wCambiarClave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wEditEmpresa.resx">
+      <DependentUpon>wEditEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wEditPerfil.resx">
+      <DependentUpon>wEditPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wEditPeriodo.resx">
+      <DependentUpon>wEditPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wEditUsuario.resx">
+      <DependentUpon>wEditUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wEmpresa.resx">
+      <DependentUpon>wEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wParametroEmpresa.resx">
+      <DependentUpon>wParametroEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wPerfil.resx">
+      <DependentUpon>wPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wPeriodo.resx">
+      <DependentUpon>wPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\wUsuario.resx">
+      <DependentUpon>wUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varios\wCopiaSeguridad.resx">
+      <DependentUpon>wCopiaSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Varios\wParametrosGenerales.resx">
+      <DependentUpon>wParametrosGenerales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanasComunes\wFiltraEstado.resx">
+      <DependentUpon>wFiltraEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Impresiones\Impresion.xsc">
+      <DependentUpon>Impresion.xsd</DependentUpon>
+    </None>
+    <None Include="Impresiones\Impresion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Impresion.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Impresiones\Impresion.xss">
+      <DependentUpon>Impresion.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{f709414d-38df-4398-adb6-868954045a27}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{7f3ecd31-c0d0-48cb-8afa-bde5fd070f6d}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 Excel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2leftarrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Acrobat%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Borders%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Calendar 2%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Card file%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Card update%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Db next%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Edit-3%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Filter%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Hand point%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Lock on%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Lock on%291.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Mail%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Paste%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Pencil tool%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Plus%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Print%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Refresh%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Refuse%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Undo%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Users%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Window next%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Window previous%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceso6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_form_edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blog-post-delete_24x24-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bookmark_folder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bundle-32x32x8b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C&amp;M 07_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-date_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CP 28_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CP 45_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editdelete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\encrypted.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File 79_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder 086_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder 086_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder Blue Documents_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-next_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder-previous_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo_Acceso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game 11_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome-home.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_brown16_h.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_green16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\id_card_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-edit_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korganizer_todo_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_edit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail-next_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Media 12_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes-edit_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_red.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_text_width.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste_clipboard16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shared-badge_24x24-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taskbar_24x24-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User 04_24x24-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User 04_32x32-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Info_16x16-32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_suit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_in.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door_out.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_refresh1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart_pie_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16 %28Calculator%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_view_day.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

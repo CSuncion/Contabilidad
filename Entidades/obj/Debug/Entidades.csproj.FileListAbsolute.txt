@@ -1,0 +1,29 @@
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Entidades\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Entidades\obj\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Entidades\obj\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Entidades\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Entidades\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Entidades\obj\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Entidades\obj\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Entidades\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Entidades\bin\Debug\Entidades.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Entidades\obj\Debug\Entidades.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\bin\Debug\Entidades.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\obj\Debug\Entidades.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\obj\Debug\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

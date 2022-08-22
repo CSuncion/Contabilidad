@@ -1,0 +1,572 @@
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Comun.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Heredados.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Negocio.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\WinControles.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Negocio.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Comun.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Heredados.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\WinControles.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Datos.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\ScriptBD.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\Datos.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Contabilidad\Presentacion\bin\Debug\ScriptBD.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisExi.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisCeCo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisAux.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisPer.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisAlm.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisTipOpe.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEliminarExistenciaMasivo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wAdicionarExistenciaMasivo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wCentroCosto.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditCentroCosto.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditExistencia.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wExistencia.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditAuxiliar.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditAlmacen.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditPersonal.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoOperacion.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wAuxiliar.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wAlmacen.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wFormula.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wPersonal.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wTipoOperacion.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wDetalleFormula.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleSalida.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleIngreso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wRecalculo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wEditSalida.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wEditIngreso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wSalidas.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wIngresos.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wEditPeriodo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wPeriodo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Presentacion.exe.config
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Comun.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Heredados.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Negocio.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\WinControles.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Datos.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\ScriptBD.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Negocio.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Comun.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Heredados.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\WinControles.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\Datos.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\ScriptBD.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Maestros.wEditFormula.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wEditTransferencia.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wTransferencias.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleTransferencia.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Varios.wParametrosGenerales.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wProduccion.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisFor.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wEditProduccion.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Varios.wCopiaSeguridad.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.VentanasComunes.wFiltraEstado.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wParteTrabajo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wEditParteTrabajo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Listas.wLisSolPro.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wSalidaInsumos.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wInsumosFaltantes.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wIngresoMercaderias.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleIngresoMercaderia.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\FlashControlV71.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\bin\Debug\stdole.dll
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Impresiones.wImpNotaIngreso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Impresiones.wImpKardexFisico.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Impresiones.wImpKardexValorizado.resources
+C:\TrabajosVs2015\SistemasEscritorio\Plantillas\Almacen\Presentacion\obj\Debug\Presentacion.Impresiones.wImpNotaSalida.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Entidades.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\FlashControlV71.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Negocio.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Datos.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ScriptBD.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\stdole.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Entidades.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Negocio.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Comun.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Heredados.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\WinControles.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Datos.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ScriptBD.pdb
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCeCo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisAux.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditAuxiliar.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wAuxiliar.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPeriodo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPeriodo.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wCopiaSeguridad.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wParametrosGenerales.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.VentanasComunes.wFiltraEstado.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoCambio.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoCambio.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasEmpresa.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarAuxiliares.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisEmp.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\WinControles.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarAuxiliar.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Comun.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Heredados.dll
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuenta.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuenta.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCue.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditFormatoContable.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wFormatoContable.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuentaBanco.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuentaBanco.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisForCon.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarFormatoContable.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarFormatoContable.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarCuentas.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarCuenta.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditItemAlmacen.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wItemAlmacen.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarItemsAlmacen.resources
+C:\TrabajosVs2015\SistemasEscritorio\Empresas\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarItemAlmacen.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.exe
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisForCon.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCue.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisEmp.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCeCo.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisAux.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarCuentas.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarItemsAlmacen.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarFormatoContable.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditItemAlmacen.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarItemAlmacen.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wItemAlmacen.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuentaBanco.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuentaBanco.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditFormatoContable.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wFormatoContable.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuenta.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarAuxiliares.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuenta.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaEmpresa.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoCambio.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarCuenta.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarFormatoContable.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarAuxiliar.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasEmpresa.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoCambio.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditAuxiliar.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wAuxiliar.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPeriodo.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPeriodo.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wCopiaSeguridad.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wParametrosGenerales.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.VentanasComunes.wFiltraEstado.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.exe
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Presentacion.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Shared.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Entidades.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\FlashControlV71.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Negocio.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Datos.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ShockwaveFlashObjects.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ScriptBD.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\stdole.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Entidades.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Negocio.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Comun.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Heredados.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\WinControles.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Datos.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\ScriptBD.pdb
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Comun.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\Heredados.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\bin\Debug\WinControles.dll
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wRegistroCompra.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wEditRegistroCompra.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemE.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoDocumento.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoDocumento.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisTipDoc.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleRegistroCompra.resources
+D:\Aplicaciones de Escritorio\Software\Alfisa\Programas\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisIteAlm.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Presentacion.exe
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Presentacion.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Entidades.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\FlashControlV71.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Negocio.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Datos.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\ScriptBD.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\stdole.dll
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Entidades.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Negocio.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\bin\Debug\Datos.pdb
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisIteAlm.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisTipDoc.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisForCon.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCue.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisEmp.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCeCo.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisAux.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemE.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarCuentas.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarItemsAlmacen.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarFormatoContable.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditItemAlmacen.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoDocumento.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarItemAlmacen.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wItemAlmacen.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuentaBanco.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuentaBanco.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditFormatoContable.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wFormatoContable.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuenta.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarAuxiliares.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuenta.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaEmpresa.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoCambio.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarCuenta.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarFormatoContable.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarAuxiliar.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasEmpresa.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoDocumento.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoCambio.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditAuxiliar.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wAuxiliar.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleRegistroCompra.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wEditRegistroCompra.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wRegistroCompra.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPeriodo.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPeriodo.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wCopiaSeguridad.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wParametrosGenerales.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.VentanasComunes.wFiltraEstado.resources
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.exe
+C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Presentacion\obj\Debug\Presentacion.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.exe
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wAgregarBotones.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBoton.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wBotonesVentana.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditBoton.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wEditVentana.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Desarrollador.wVentana.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisIteAlm.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisTipDoc.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisForCon.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCue.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisEmp.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCeCo.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisAux.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemE.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisItemG.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisPerEmpExt.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisUsuExt.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarCuentas.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarItemsAlmacen.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarFormatoContable.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditItemAlmacen.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoDocumento.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarItemAlmacen.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wItemAlmacen.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuentaBanco.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuentaBanco.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditFormatoContable.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wFormatoContable.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCuenta.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wCopiarAdicionarAuxiliares.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditCuenta.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaEmpresa.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTipoCambio.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarCuenta.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarFormatoContable.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wImportarAuxiliar.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasEmpresa.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoDocumento.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTipoCambio.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditAuxiliar.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wEditTablaGeneral.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wAuxiliar.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Maestros.wTablasGeneral.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wAcceso.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wBloquearSistema.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Principal.wMenu.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wDetalleRegistroCompra.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wEditRegistroCompra.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wRegistroCompra.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarEmpresas.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosPerfil.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wAsignarPermisosUsuario.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wCambiarClave.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditEmpresa.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPerfil.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditPeriodo.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEditUsuario.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wEmpresa.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wParametroEmpresa.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPerfil.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wPeriodo.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Sistema.wUsuario.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wCopiaSeguridad.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Varios.wParametrosGenerales.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.VentanasComunes.wFiltraEstado.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.csproj.ResolveComReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Presentacion.exe
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Presentacion.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Shared.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Entidades.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\FlashControlV71.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Negocio.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Datos.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\ShockwaveFlashObjects.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\ScriptBD.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\stdole.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Negocio.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\bin\Debug\Datos.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wCajaBanco.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wEditCajaBanco.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Procesos.wAgregarItemCajaBanco.resources
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Presentacion\obj\Debug\Presentacion.Listas.wLisCueBco.resources
