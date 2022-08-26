@@ -517,6 +517,11 @@ namespace Presentacion.Procesos
             this.ListarCuentaBanco();
         }
 
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void txtCodCtaBco_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.F1) { this.ListarCuentaBanco(); }

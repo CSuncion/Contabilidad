@@ -331,8 +331,8 @@ namespace Presentacion.Procesos
             switch (this.eOperacion)
             {
                 case Universal.Opera.Adicionar: { this.Adicionar(); break; }
-                case Universal.Opera.Modificar: { this.Modificar(); break; }
-                case Universal.Opera.Eliminar: { this.Eliminar(); break; }
+                //case Universal.Opera.Modificar: { this.Modificar(); break; }
+                //case Universal.Opera.Eliminar: { this.Eliminar(); break; }
                 default: break;
             }
         }
@@ -342,7 +342,7 @@ namespace Presentacion.Procesos
             //validar los campos obligatorios
             if (eMas.CamposObligatorios() == false) { return; }
 
-            //adicionar MovimientoDeta
+            //adicionar RegContab
             this.AdicionarCajaBancoDeta();
 
             //adicionar lotes para la existencia
@@ -352,18 +352,18 @@ namespace Presentacion.Procesos
             Mensaje.OperacionSatisfactoria("Se adiciono el registro", "Detalle");
 
             //actualizar propietario
-            //this.wEditIng.eClaveDgvMovDet = this.wEditIng.eLisMovDet[this.wEditIng.eLisMovDet.Count - 1].ClaveObjeto;
-            //this.wEditIng.MostrarMovimientosDeta();
-            //this.wEditIng.CambiarSoloLecturaACodigoAlmacen();
-            //this.wEditIng.CambiarSoloLecturaACodigoTipoOperacion();
+            this.wEditCajBco.eClaveDgvCajBanDet = this.wEditCajBco.eLisCajBanDet[this.wEditCajBco.eLisCajBanDet.Count - 1].ClaveObjeto;
+            this.wEditCajBco.MostrarCajaBancoDeta();
+            //this.wEditCajBco.CambiarSoloLecturaACodigoAlmacen();
+            //this.wEditCajBco.CambiarSoloLecturaACodigoTipoOperacion();
 
             //limpiar controles
-            //this.MostrarMovimientoDeta(MovimientoDetaRN.EnBlanco());
+            this.MostrarCajaBancoDeta(RegContabDetaRN.EnBlanco());
             //this.HabilitarControlesSegunPropiedadLote("");          
             //this.CambiarAtributoSoloLecturaACodigoExistencia();
             //this.eLisLotExi.Clear();
-            //eMas.AccionPasarTextoPrincipal();
-            //this.txtCodExi.Focus();
+            eMas.AccionPasarTextoPrincipal();
+            this.txtCodCta.Focus();
         }
 
         public void AdicionarCajaBancoDeta()
@@ -377,33 +377,15 @@ namespace Presentacion.Procesos
 
         public void AsignarMovimientoDeta(RegContabDetaEN pObj)
         {
-            pObj.ClaveObjeto = string.Empty;
-            pObj.ClaveRegContabDeta = string.Empty;
             pObj.CodigoEmpresa = Universal.gCodigoEmpresa;
-            pObj.NombreEmpresa = string.Empty;
-            pObj.PeriodoRegContabCabe = string.Empty;
-            pObj.COrigen = string.Empty;
-            pObj.NOrigen = string.Empty;
-            pObj.CFile = string.Empty;
-            pObj.NFile = string.Empty;
-            pObj.CorrelativoRegContabCabe = string.Empty;
-            pObj.CorrelativoRegContabDeta = string.Empty;
-            pObj.FechaRegContabCabe = string.Empty;
-            pObj.IgvSolRegContabCabe = 0;
-            pObj.PrecioVentaSolRegContabCabe = 0;
-            pObj.CodigoAuxiliar = string.Empty;
-            pObj.DescripcionAuxiliar = string.Empty;
-            pObj.CTipoDocumento = string.Empty;
-            pObj.NTipoDocumento = string.Empty;
-            pObj.CAplicaDocumentoRef = string.Empty;
-            pObj.CTipoNota = string.Empty;
-            pObj.SerieDocumento = string.Empty;
-            pObj.NumeroDocumento = string.Empty;
-            pObj.FechaDocumento = string.Empty;
-            pObj.FechaVctoDocumento = string.Empty;
-            pObj.CMonedaDocumento = string.Empty;
-            pObj.NMonedaDocumento = string.Empty;
-            pObj.VentaTipoCambio = 0;
+            pObj.PeriodoRegContabCabe = this.wEditCajBco.wCajBco.lblPeriodo.Text;
+            pObj.CodigoAuxiliar = this.txtCodAux.Text;
+            pObj.CTipoDocumento = this.txtCodTD.Text;
+            pObj.SerieDocumento = this.txtSerDoc.Text;
+            pObj.NumeroDocumento = this.txtNumDoc.Text;
+            pObj.FechaDocumento = this.dtpFecDoc.Text;
+            pObj.CMonedaDocumento = Cmb.ObtenerValor(this.cmbMon, string.Empty);
+            pObj.VentaTipoCambio = Conversion.ADecimal(this.txtTipCam.Text, 3);
             pObj.CodigoCuenta = string.Empty;
             pObj.DescripcionCuenta = string.Empty;
             pObj.CAutomatica = string.Empty;
