@@ -25,6 +25,8 @@ namespace Presentacion.Procesos
         public int wMoneda = 0;
         Masivo eMas = new Masivo();
         string eTitulo = "Item";
+        string eNombreColumnaDgvTipOpe = TipoCambioEN.FecTipCam;
+        public List<TipoCambioEN> eLisTipCam = new List<TipoCambioEN>();
 
         public wEditCajaBanco wEditCajBco;
 
@@ -381,49 +383,47 @@ namespace Presentacion.Procesos
             pObj.PeriodoRegContabCabe = this.wEditCajBco.wCajBco.lblPeriodo.Text;
             pObj.CodigoAuxiliar = this.txtCodAux.Text;
             pObj.CTipoDocumento = this.txtCodTD.Text;
+            pObj.NTipoDocumento = this.txtDesTD.Text;
             pObj.SerieDocumento = this.txtSerDoc.Text;
             pObj.NumeroDocumento = this.txtNumDoc.Text;
             pObj.FechaDocumento = this.dtpFecDoc.Text;
             pObj.CMonedaDocumento = Cmb.ObtenerValor(this.cmbMon, string.Empty);
             pObj.VentaTipoCambio = Conversion.ADecimal(this.txtTipCam.Text, 3);
-            pObj.CodigoCuenta = string.Empty;
-            pObj.DescripcionCuenta = string.Empty;
-            pObj.CAutomatica = string.Empty;
-            pObj.CodigoCuentaAutomatica1 = string.Empty;
-            pObj.CodigoCuentaAutomatica2 = string.Empty;
-            pObj.CBanco = string.Empty;
-            pObj.CMoneda = string.Empty;
-            pObj.CCentroCostoCuenta = string.Empty;
-            pObj.CAreaCuenta = string.Empty;
-            pObj.CAlmacen = string.Empty;
-            pObj.CAuxiliar = string.Empty;
-            pObj.CDocumento = string.Empty;
-            pObj.CDebeHaber = string.Empty;
-            pObj.NDebeHaber = string.Empty;
-            pObj.ImporteSolRegContabDeta = 0;
+            pObj.CodigoCuenta = this.txtCodCta.Text;
+            pObj.DescripcionCuenta = this.txtDesCta.Text;
+            pObj.CMoneda = Cmb.ObtenerValor(this.cmbMon, string.Empty);
+            pObj.CCentroCostoCuenta = this.txtCodCCosto.Text;
+            pObj.CAuxiliar = this.txtCodAux.Text;
+            pObj.DescripcionAuxiliar = this.txtDesAux.Text;
+            pObj.CDebeHaber = Cmb.ObtenerValor(this.cmbDebHab, string.Empty);
+            pObj.NDebeHaber = Cmb.ObtenerTexto(this.cmbDebHab);
+            pObj.ImporteSolRegContabDeta = Conversion.ADecimal(this.txtImpSol.Text, 2);
             pObj.ImporteMonedaRegContabDeta = 0;
-            pObj.GlosaRegContabDeta = string.Empty;
-            pObj.CIngresoEgreso = string.Empty;
-            pObj.NIngresoEgreso = string.Empty;
-            pObj.CCentroCosto = string.Empty;
-            pObj.NCentroCosto = string.Empty;
-            pObj.CArea = string.Empty;
-            pObj.NArea = string.Empty;
-            pObj.CFlujoCaja = string.Empty;
-            pObj.NFlujoCaja = string.Empty;
-            pObj.CodigoAlmacen = string.Empty;
-            pObj.DescripcionAlmacen = string.Empty;
-            pObj.CodigoItemAlmacen = string.Empty;
-            pObj.DescripcionItemAlmacen = string.Empty;
-            pObj.CantidadItemAlmacen = 0;
+            pObj.GlosaRegContabDeta = this.txtGloIteCajBco.Text;
+            pObj.CCentroCosto = this.txtCodCCosto.Text;
+            pObj.CFlujoCaja = this.txtCodFluEfe.Text;
             pObj.CTipoLineaAsiento = ItemGEN.TipoLineaAsiento_Editado;
             pObj.CEstadoRegContabDeta = "1";
-            pObj.NEstadoRegContabDeta = string.Empty;
-            pObj.UsuarioAgrega = string.Empty;
-            pObj.FechaAgrega = DateTime.Now;
-            pObj.UsuarioModifica = string.Empty;
-            pObj.FechaModifica = DateTime.Now;
             pObj.ClaveRegContabCabe = this.wEditCajBco.ObtenerClaveCajaBcoCabe();
+        }
+
+        public void CargarTipoCambio()
+        {
+            decimal tipCam = 0;
+            TipoCambioEN objTipCam = new TipoCambioEN();
+            objTipCam.Adicionales.CampoOrden = eNombreColumnaDgvTipOpe;
+            eLisTipCam = TipoCambioRN.ListarTipoCambios(objTipCam);
+
+            string fechaTipoCambio = Fecha.ObtenerDiaMesAno(Conversion.ADateTime(dtpFecDoc.Text));
+
+            if (eLisTipCam.Where(e => e.FechaTipoCambio == fechaTipoCambio).Count() == 0)
+            {
+                Mensaje.OperacionDenegada("Se debe ingresar un tipo de cambio para la fecha del documento.", this.wEditCajBco.wCajBco.eTitulo);
+                txtTipCam.Text = Formato.NumeroDecimal(0, 4);
+            }
+            else
+                txtTipCam.Text = eLisTipCam.FirstOrDefault(e => e.FechaTipoCambio == fechaTipoCambio).VentaUsTipoCambio.ToString();
+
         }
 
         private void txtCodCta_Validating(object sender, CancelEventArgs e)
@@ -504,6 +504,11 @@ namespace Presentacion.Procesos
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             this.Aceptar();
+        }
+
+        private void dtpFecDoc_Validated(object sender, EventArgs e)
+        {
+            this.CargarTipoCambio();
         }
     }
 }

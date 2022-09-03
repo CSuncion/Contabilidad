@@ -29,6 +29,8 @@ namespace Presentacion.Procesos
         public List<RegContabDetaEN> eLisCajBanDet = new List<RegContabDetaEN>();
         public string eClaveDgvCajBanDet = string.Empty;
         Dgv.Franja eFranjaDgvCajBanDet = Dgv.Franja.PorIndice;
+        string eNombreColumnaDgvTipOpe = TipoCambioEN.FecTipCam;
+        public List<TipoCambioEN> eLisTipCam = new List<TipoCambioEN>();
         #endregion
 
         #region Propietario
@@ -66,7 +68,7 @@ namespace Presentacion.Procesos
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
-            xCtrl.TxtTodo(this.txtImporte, true, "Importe", "ffff");
+            xCtrl.TxtTodo(this.txtImporte, true, "Importe", "vfff");
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
@@ -270,7 +272,7 @@ namespace Presentacion.Procesos
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.NDebHab, "D/H", 100));
             iLisRes.Add(Dgv.NuevaColumnaTextNumerico(RegContabDetaEN.ImpSolRegConDet, "Importe S/.", 60, 3));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.CTipDoc, "TD", 85));
-            iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.NTipDoc, "TD", 90));
+            iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.NTipDoc, "Desc. TD", 90));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.ClaObj, "Clave", 50, false));
 
             //devolver
@@ -293,7 +295,7 @@ namespace Presentacion.Procesos
             win.eCtrlValor = this.txtCodOri;
             win.eCtrlFoco = this.txtCodFile;
             win.eIteEN.CodigoTabla = "Ori";
-            win.eCondicionLista = Listas.wLisItemG.Condicion.ItemsActivosXTabla;
+            win.eCondicionLista = Listas.wLisItemG.Condicion.ItemsActivosXTablaxCondicionOrigenes;
             TabCtrl.InsertarVentana(this, win);
             win.NuevaVentana();
         }
@@ -447,6 +449,50 @@ namespace Presentacion.Procesos
             pRegContabCab.ClaveRegContabCabe = RegContabCabeRN.ObtenerClaveRegContabCabe(pRegContabCab);
         }
 
+        public void CargarTipoCambio()
+        {
+            decimal tipCam = 0;
+            TipoCambioEN objTipCam = new TipoCambioEN();
+            objTipCam.Adicionales.CampoOrden = eNombreColumnaDgvTipOpe;
+            eLisTipCam = TipoCambioRN.ListarTipoCambios(objTipCam);
+
+            string fechaTipoCambio = Fecha.ObtenerDiaMesAno(Conversion.ADateTime(dtpFecCorrRegContab.Text));
+
+            if (eLisTipCam.Where(e => e.FechaTipoCambio == fechaTipoCambio).Count() == 0)
+            {
+                Mensaje.OperacionDenegada("Se debe ingresar un tipo de cambio para la fecha del documento.", this.wCajBco.eTitulo);
+                txtTipCam.Text = Formato.NumeroDecimal(0, 4);
+            }
+            else
+                txtTipCam.Text = eLisTipCam.FirstOrDefault(e => e.FechaTipoCambio == fechaTipoCambio).VentaUsTipoCambio.ToString();
+
+        }
+
+        public void ImportesDebeHaber()
+        {
+            this.CalculoDistribucion();
+
+        }
+
+        public void CalculoDistribucion()
+        {
+            if (this.txtImporte.Text.Length != 0)
+            {
+                switch (Cmb.ObtenerValor(this.cmbMon))
+                {
+                    case "0":
+                        this.txtDistSoles.Text = this.txtImporte.Text;
+                        break;
+                    case "1":
+                        this.txtDistSoles.Text = (Conversion.ADecimal(this.txtImporte.Text, 2) * Conversion.ADecimal(this.txtTipCam.Text, 3)).ToString();
+                        break;
+                    default:
+                        this.txtDistSoles.Text = this.txtImporte.Text;
+                        break;
+                }
+            }
+        }
+
         private void txtCodOri_DoubleClick(object sender, EventArgs e)
         {
             this.ListarOrigen();
@@ -522,6 +568,44 @@ namespace Presentacion.Procesos
 
         }
 
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            if ((this.lblDebTotSol.Text == this.txtDistSoles.Text)
+                &&
+                (this.lblHabTotSol.Text == this.txtDistSoles.Text))
+            {
+                Mensaje.OperacionDenegada("El importe ya esta cuadrado", this.wCajBco.eTitulo);
+                return;
+            }
+
+            if (Convert.ToDecimal(this.lblDebTotSol.Text) == Convert.ToDecimal(this.lblHabTotSol.Text))
+            {
+                Mensaje.OperacionDenegada("La suma de los importes ya estan cuadrados", this.wCajBco.eTitulo);
+                return;
+            }
+
+            if (
+                (this.lblDebTotSol.Text == "0.00" && this.lblHabTotSol.Text == "0.00")
+            &&
+            (Convert.ToDecimal(this.lblDebTotSol.Text) < Convert.ToDecimal(this.txtDistSoles.Text)
+            ||
+             Convert.ToDecimal(this.lblHabTotSol.Text) < Convert.ToDecimal(this.txtDistSoles.Text))
+             )
+            {
+                this.AccionAgregarItem();
+            }
+        }
+
+        private void dtpFecCorrRegContab_Validated(object sender, EventArgs e)
+        {
+            this.CargarTipoCambio();
+        }
+
+        private void txtImporte_Validated(object sender, EventArgs e)
+        {
+            this.ImportesDebeHaber();
+        }
+
         private void txtCodCtaBco_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.F1) { this.ListarCuentaBanco(); }
@@ -529,7 +613,7 @@ namespace Presentacion.Procesos
 
         private void btnAgregarCtaBco_Click(object sender, EventArgs e)
         {
-            this.AccionAgregarItem();
+
         }
 
         private void wEditCajaBanco_FormClosing(object sender, FormClosingEventArgs e)

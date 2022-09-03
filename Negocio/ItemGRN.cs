@@ -390,6 +390,11 @@ namespace Negocio
             //devolver
             return iLisRes;
         }
+        public static List<ItemGEN> ListarItemsGActivosXTablaYFiltroCodigoYOrigenes(ItemGEN pObj)
+        {
+            ItemGAD iIteAD = new ItemGAD();
+            return iIteAD.ListarItemsGActivosXTablaYFiltroCodigoYOrigenes(pObj);
+        }
 
     }
 }

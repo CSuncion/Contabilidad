@@ -205,6 +205,7 @@
             this.dtpFecCorrRegContab.Name = "dtpFecCorrRegContab";
             this.dtpFecCorrRegContab.Size = new System.Drawing.Size(115, 22);
             this.dtpFecCorrRegContab.TabIndex = 430;
+            this.dtpFecCorrRegContab.Validated += new System.EventHandler(this.dtpFecCorrRegContab_Validated);
             // 
             // cmbMon
             // 
@@ -266,6 +267,7 @@
             this.txtImporte.Size = new System.Drawing.Size(85, 22);
             this.txtImporte.TabIndex = 452;
             this.txtImporte.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtImporte.Validated += new System.EventHandler(this.txtImporte_Validated);
             // 
             // label3
             // 
@@ -280,6 +282,7 @@
             // 
             this.txtDistSoles.Location = new System.Drawing.Point(712, 158);
             this.txtDistSoles.Name = "txtDistSoles";
+            this.txtDistSoles.ReadOnly = true;
             this.txtDistSoles.Size = new System.Drawing.Size(115, 22);
             this.txtDistSoles.TabIndex = 455;
             this.txtDistSoles.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -595,6 +598,7 @@
             this.btnAgregar.TabIndex = 480;
             this.btnAgregar.Tag = "19";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // wEditCajaBanco
             // 

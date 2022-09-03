@@ -265,5 +265,16 @@ namespace Datos
             return this.ListarObjetos(xSel.ObtenerScript());
         }
 
+        public List<ItemGEN> ListarItemsGActivosXTablaYFiltroCodigoYOrigenes(ItemGEN pObj)
+        {
+            SqlSelect xSel = new SqlSelect();
+            xSel.SeleccionaVista(this.xVista);
+            xSel.CondicionCV(SqlSelect.Reservada.Cuando, ItemGEN.CodTab, SqlSelect.Operador.Igual, pObj.CodigoTabla);
+            xSel.CondicionCV(SqlSelect.Reservada.Y, ItemGEN.CEstIteG, SqlSelect.Operador.Igual, "1"); //ACTIVOS
+            xSel.CondicionIN(SqlSelect.Reservada.Y, ItemGEN.CodIteG, "1,2");
+            xSel.Ordenar(pObj.Adicionales.CampoOrden, SqlSelect.Orden.Asc);
+            return this.ListarObjetos(xSel.ObtenerScript());
+        }
+
     }
 }

@@ -192,6 +192,7 @@
             this.dtpFecDoc.Name = "dtpFecDoc";
             this.dtpFecDoc.Size = new System.Drawing.Size(139, 22);
             this.dtpFecDoc.TabIndex = 438;
+            this.dtpFecDoc.Validated += new System.EventHandler(this.dtpFecDoc_Validated);
             // 
             // label8
             // 

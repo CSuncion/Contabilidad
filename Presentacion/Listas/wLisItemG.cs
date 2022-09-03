@@ -25,6 +25,7 @@ namespace Presentacion.Listas
         public enum Condicion
         {
             ItemsActivosXTabla = 0,
+            ItemsActivosXTablaxCondicionOrigenes = 1,
         }
 
 
@@ -53,11 +54,11 @@ namespace Presentacion.Listas
 
         public void NuevaVentana()
         {
-            this.InicializaVentana();        
+            this.InicializaVentana();
             this.Show();
             this.txtBus.Focus();
         }
-        
+
         public void ActualizaVentana()
         {
             this.ActualizarListaItemGsDeBaseDatos();
@@ -67,7 +68,7 @@ namespace Presentacion.Listas
         }
 
         public void ActualizarDgvLista()
-        {          
+        {
             //llenar la grilla
             Dgv iDgv = new Dgv();
             iDgv.MiDgv = this.DgvLista;
@@ -87,6 +88,7 @@ namespace Presentacion.Listas
             switch (eCondicionLista)
             {
                 case Condicion.ItemsActivosXTabla: { this.eLisItem = ItemGRN.ListarItemsGActivosXTabla(eIteEN); break; }
+                case Condicion.ItemsActivosXTablaxCondicionOrigenes: { this.eLisItem = ItemGRN.ListarItemsGActivosXTablaYFiltroCodigoYOrigenes(eIteEN); break; }
             }
         }
 
@@ -121,7 +123,7 @@ namespace Presentacion.Listas
             eIteEN.Adicionales.CampoOrden = this.DgvLista.Columns[pColumna].Name;
             this.eCampoBusqueda = this.DgvLista.Columns[pColumna].HeaderText;
             this.ActualizaVentana();
-            Txt.CursorAlUltimo(this.txtBus);  
+            Txt.CursorAlUltimo(this.txtBus);
         }
 
         public void ActualizarVentanaAlBuscarValor(KeyEventArgs pE)
@@ -155,11 +157,11 @@ namespace Presentacion.Listas
 
         #endregion
 
-   
+
 
         private void wLisItemG_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.eVentana.Enabled = true;           
+            this.eVentana.Enabled = true;
         }
 
         private void btnSeleccionar_Click(object sender, EventArgs e)
@@ -168,9 +170,9 @@ namespace Presentacion.Listas
         }
 
         private void txtBus_KeyPress(object sender, KeyPressEventArgs e)
-        {         
+        {
             //si se selecciono la barra espaciadora
-            if (Encoding.ASCII.GetBytes(e.KeyChar.ToString())[0] == 13){this.DevolverDato();}
+            if (Encoding.ASCII.GetBytes(e.KeyChar.ToString())[0] == 13) { this.DevolverDato(); }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -185,7 +187,7 @@ namespace Presentacion.Listas
 
         private void txtBus_KeyUp(object sender, KeyEventArgs e)
         {
-            this.ActualizarVentanaAlBuscarValor(e);       
+            this.ActualizarVentanaAlBuscarValor(e);
         }
 
         private void DgvLista_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
@@ -195,8 +197,8 @@ namespace Presentacion.Listas
 
 
 
-       
 
-   
+
+
     }
 }
