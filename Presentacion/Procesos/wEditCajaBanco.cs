@@ -151,6 +151,7 @@ namespace Presentacion.Procesos
             this.InicializaVentana();
             this.MostrarCajaBanco(RegContabCabeRN.EnBlanco());
             this.MostrarCajaBancoDeta();
+            this.ImportesDebeHaber();
             eMas.AccionHabilitarControles(0);
             eMas.AccionPasarTextoPrincipal();
             this.txtCodOri.Focus();
@@ -246,6 +247,12 @@ namespace Presentacion.Procesos
             this.txtNroCtaBco.Text = pObj.NumeroCuentaBanco;
             this.txtGirPag.Text = pObj.GiradoPagoRegContabCabe;
             this.txtConcep.Text = pObj.GlosaRegContabCabe;
+            this.lblDebTotSol.Text = Formato.NumeroDecimal(string.Empty, 2);
+            this.lblDebTotDol.Text = Formato.NumeroDecimal(string.Empty, 2);
+            this.lblHabTotSol.Text = Formato.NumeroDecimal(string.Empty, 2);
+            this.lblHabTotDol.Text = Formato.NumeroDecimal(string.Empty, 2);
+            this.lblSaldo.Text = Formato.NumeroDecimal(string.Empty, 2);
+            this.CargarTipoCambio();
         }
         public void MostrarCajaBancoDeta()
         {
@@ -271,6 +278,7 @@ namespace Presentacion.Procesos
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.DesAux, "Razón Social", 145));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.NDebHab, "D/H", 100));
             iLisRes.Add(Dgv.NuevaColumnaTextNumerico(RegContabDetaEN.ImpSolRegConDet, "Importe S/.", 60, 3));
+            iLisRes.Add(Dgv.NuevaColumnaTextNumerico(RegContabDetaEN.ImpMonRegConDet, "Importe $", 60, 3));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.CTipDoc, "TD", 85));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.NTipDoc, "Desc. TD", 90));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabDetaEN.ClaObj, "Clave", 50, false));
@@ -471,7 +479,26 @@ namespace Presentacion.Procesos
         public void ImportesDebeHaber()
         {
             this.CalculoDistribucion();
-
+            int numreg = this.dgvCajBanDet.Rows.Count - 2;
+            string deha = string.Empty;
+            decimal impS, impD;
+            for (int i = 0; i < numreg; i++)
+            {
+                deha = this.dgvCajBanDet.Rows[i].Cells[RegContabDetaEN.NDebHab].Value.ToString();
+                impS = Conversion.ADecimal(this.dgvCajBanDet.Rows[i].Cells[RegContabDetaEN.ImpSolRegConDet].Value.ToString(), 2);
+                impD = Conversion.ADecimal(this.dgvCajBanDet.Rows[i].Cells[RegContabDetaEN.ImpMonRegConDet].Value.ToString(), 2);
+                switch (deha)
+                {
+                    case "Haber":
+                        this.lblHabTotSol.Text = (Conversion.ADecimal(this.lblHabTotSol.Text, 2) + impS).ToString();
+                        this.lblHabTotDol.Text = (Conversion.ADecimal(this.lblHabTotDol.Text, 2) + impD).ToString();
+                        break;
+                    case "Debe":
+                        this.lblDebTotSol.Text = (Conversion.ADecimal(this.lblDebTotSol.Text, 2) + impS).ToString();
+                        this.lblDebTotDol.Text = (Conversion.ADecimal(this.lblDebTotDol.Text, 2) + impD).ToString();
+                        break;
+                }
+            }
         }
 
         public void CalculoDistribucion()
@@ -578,11 +605,7 @@ namespace Presentacion.Procesos
                 return;
             }
 
-            if (Convert.ToDecimal(this.lblDebTotSol.Text) == Convert.ToDecimal(this.lblHabTotSol.Text))
-            {
-                Mensaje.OperacionDenegada("La suma de los importes ya estan cuadrados", this.wCajBco.eTitulo);
-                return;
-            }
+
 
             if (
                 (this.lblDebTotSol.Text == "0.00" && this.lblHabTotSol.Text == "0.00")
@@ -591,8 +614,16 @@ namespace Presentacion.Procesos
             ||
              Convert.ToDecimal(this.lblHabTotSol.Text) < Convert.ToDecimal(this.txtDistSoles.Text))
              )
-            {
                 this.AccionAgregarItem();
+            else
+            {
+                if (Convert.ToDecimal(this.lblDebTotSol.Text) == Convert.ToDecimal(this.lblHabTotSol.Text))
+                {
+                    Mensaje.OperacionDenegada("La suma de los importes ya estan cuadrados", this.wCajBco.eTitulo);
+                    return;
+                }
+                else
+                    this.AccionAgregarItem();
             }
         }
 
@@ -602,6 +633,11 @@ namespace Presentacion.Procesos
         }
 
         private void txtImporte_Validated(object sender, EventArgs e)
+        {
+            this.ImportesDebeHaber();
+        }
+
+        private void cmbMon_Validating(object sender, CancelEventArgs e)
         {
             this.ImportesDebeHaber();
         }

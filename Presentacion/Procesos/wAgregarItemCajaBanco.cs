@@ -425,6 +425,24 @@ namespace Presentacion.Procesos
                 txtTipCam.Text = eLisTipCam.FirstOrDefault(e => e.FechaTipoCambio == fechaTipoCambio).VentaUsTipoCambio.ToString();
 
         }
+        public void CalcularImporte()
+        {
+            decimal impSol = Conversion.ADecimal(this.txtImpSol.Text, 2);
+            decimal impDol = Conversion.ADecimal(this.txtImpDol.Text, 2);
+            decimal tc = Conversion.ADecimal(this.txtTipCam.Text, 2);
+            switch (Cmb.ObtenerValor(this.cmbMon))
+            {
+                case "0":
+                    this.txtImpDol.Text = (impSol / tc).ToString();
+                    break;
+                case "1":
+                    this.txtImpSol.Text = (impDol * tc).ToString();
+                    break;
+                default:
+                    this.txtImpSol.Text = (impDol * tc).ToString();
+                    break;
+            }
+        }
 
         private void txtCodCta_Validating(object sender, CancelEventArgs e)
         {
@@ -509,6 +527,16 @@ namespace Presentacion.Procesos
         private void dtpFecDoc_Validated(object sender, EventArgs e)
         {
             this.CargarTipoCambio();
+        }
+
+        private void dtpFecDoc_Validating(object sender, CancelEventArgs e)
+        {
+            this.CargarTipoCambio();
+        }
+
+        private void cmbMon_Validating(object sender, CancelEventArgs e)
+        {
+            this.CalcularImporte();
         }
     }
 }

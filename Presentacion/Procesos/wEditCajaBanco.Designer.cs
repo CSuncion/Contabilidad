@@ -214,6 +214,7 @@
             this.cmbMon.Name = "cmbMon";
             this.cmbMon.Size = new System.Drawing.Size(93, 22);
             this.cmbMon.TabIndex = 441;
+            this.cmbMon.Validating += new System.ComponentModel.CancelEventHandler(this.cmbMon_Validating);
             // 
             // label12
             // 
@@ -527,7 +528,7 @@
             // lblDebTotSol
             // 
             this.lblDebTotSol.AutoSize = true;
-            this.lblDebTotSol.Location = new System.Drawing.Point(201, 520);
+            this.lblDebTotSol.Location = new System.Drawing.Point(185, 520);
             this.lblDebTotSol.Name = "lblDebTotSol";
             this.lblDebTotSol.Size = new System.Drawing.Size(13, 14);
             this.lblDebTotSol.TabIndex = 488;
@@ -536,7 +537,7 @@
             // lblDebTotDol
             // 
             this.lblDebTotDol.AutoSize = true;
-            this.lblDebTotDol.Location = new System.Drawing.Point(201, 538);
+            this.lblDebTotDol.Location = new System.Drawing.Point(185, 538);
             this.lblDebTotDol.Name = "lblDebTotDol";
             this.lblDebTotDol.Size = new System.Drawing.Size(13, 14);
             this.lblDebTotDol.TabIndex = 489;
@@ -545,7 +546,7 @@
             // lblHabTotSol
             // 
             this.lblHabTotSol.AutoSize = true;
-            this.lblHabTotSol.Location = new System.Drawing.Point(387, 520);
+            this.lblHabTotSol.Location = new System.Drawing.Point(367, 520);
             this.lblHabTotSol.Name = "lblHabTotSol";
             this.lblHabTotSol.Size = new System.Drawing.Size(13, 14);
             this.lblHabTotSol.TabIndex = 490;
@@ -554,7 +555,7 @@
             // lblHabTotDol
             // 
             this.lblHabTotDol.AutoSize = true;
-            this.lblHabTotDol.Location = new System.Drawing.Point(387, 538);
+            this.lblHabTotDol.Location = new System.Drawing.Point(367, 538);
             this.lblHabTotDol.Name = "lblHabTotDol";
             this.lblHabTotDol.Size = new System.Drawing.Size(13, 14);
             this.lblHabTotDol.TabIndex = 491;

@@ -26,4 +26,3 @@ D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.d
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.pdb
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.pdb
-D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

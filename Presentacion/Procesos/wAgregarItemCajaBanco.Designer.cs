@@ -62,8 +62,6 @@
             this.txtDesFluEfe = new System.Windows.Forms.TextBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.txtImpEur = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.txtImpDol = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -192,6 +190,7 @@
             this.dtpFecDoc.Name = "dtpFecDoc";
             this.dtpFecDoc.Size = new System.Drawing.Size(139, 22);
             this.dtpFecDoc.TabIndex = 438;
+            this.dtpFecDoc.Validating += new System.ComponentModel.CancelEventHandler(this.dtpFecDoc_Validating);
             this.dtpFecDoc.Validated += new System.EventHandler(this.dtpFecDoc_Validated);
             // 
             // label8
@@ -233,6 +232,7 @@
             this.cmbMon.Name = "cmbMon";
             this.cmbMon.Size = new System.Drawing.Size(139, 22);
             this.cmbMon.TabIndex = 441;
+            this.cmbMon.Validating += new System.ComponentModel.CancelEventHandler(this.cmbMon_Validating);
             // 
             // label12
             // 
@@ -367,24 +367,6 @@
             this.btnAceptar.UseVisualStyleBackColor = true;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // txtImpEur
-            // 
-            this.txtImpEur.Location = new System.Drawing.Point(683, 161);
-            this.txtImpEur.MaxLength = 10;
-            this.txtImpEur.Name = "txtImpEur";
-            this.txtImpEur.Size = new System.Drawing.Size(99, 22);
-            this.txtImpEur.TabIndex = 493;
-            this.txtImpEur.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(597, 164);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(80, 14);
-            this.label23.TabIndex = 490;
-            this.label23.Text = "Importe EUR :";
-            // 
             // txtImpDol
             // 
             this.txtImpDol.Location = new System.Drawing.Point(474, 161);
@@ -415,10 +397,8 @@
             this.Controls.Add(this.txtDesFluEfe);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.txtGloIteCajBco);
-            this.Controls.Add(this.txtImpEur);
             this.Controls.Add(this.txtImpDol);
             this.Controls.Add(this.txtImpSol);
-            this.Controls.Add(this.label23);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.cmbDebHab);
@@ -475,10 +455,8 @@
             this.Controls.SetChildIndex(this.cmbDebHab, 0);
             this.Controls.SetChildIndex(this.label16, 0);
             this.Controls.SetChildIndex(this.label17, 0);
-            this.Controls.SetChildIndex(this.label23, 0);
             this.Controls.SetChildIndex(this.txtImpSol, 0);
             this.Controls.SetChildIndex(this.txtImpDol, 0);
-            this.Controls.SetChildIndex(this.txtImpEur, 0);
             this.Controls.SetChildIndex(this.txtGloIteCajBco, 0);
             this.Controls.SetChildIndex(this.label13, 0);
             this.Controls.SetChildIndex(this.txtDesFluEfe, 0);
@@ -527,8 +505,6 @@
         private System.Windows.Forms.TextBox txtDesFluEfe;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button btnAceptar;
-        internal System.Windows.Forms.TextBox txtImpEur;
-        private System.Windows.Forms.Label label23;
         internal System.Windows.Forms.TextBox txtImpDol;
         private System.Windows.Forms.Label label17;
     }
