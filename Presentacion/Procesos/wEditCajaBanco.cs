@@ -520,6 +520,14 @@ namespace Presentacion.Procesos
             }
         }
 
+        public void AgregarCuentaBanco()
+        {
+            //validar los campos obligatorios
+            if (eMas.CamposObligatorios() == false) { return; }
+
+
+        }
+
         private void txtCodOri_DoubleClick(object sender, EventArgs e)
         {
             this.ListarOrigen();
@@ -649,7 +657,7 @@ namespace Presentacion.Procesos
 
         private void btnAgregarCtaBco_Click(object sender, EventArgs e)
         {
-
+            this.AgregarCuentaBanco();
         }
 
         private void wEditCajaBanco_FormClosing(object sender, FormClosingEventArgs e)
