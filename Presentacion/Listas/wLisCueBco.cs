@@ -93,7 +93,7 @@ namespace Presentacion.Listas
             //ejecutar segun condicion
             switch (eCondicionLista)
             {
-                case Condicion.CuentasBancoActivas: { this.eLisObj = CuentaBancoRN.ListarCuentaBanco(eObjEN); break; }
+                case Condicion.CuentasBancoActivas: { this.eLisObj = CuentaBancoRN.ListarCuentaBancoPorMoneda(eObjEN); break; }
             }
         }
 

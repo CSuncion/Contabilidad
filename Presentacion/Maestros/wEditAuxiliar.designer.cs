@@ -64,6 +64,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtCPaiNoDomAux = new System.Windows.Forms.TextBox();
             this.txtNPaiNoDomAux = new System.Windows.Forms.TextBox();
+            this.btnSunat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label11
@@ -395,10 +396,21 @@
             this.txtNPaiNoDomAux.Size = new System.Drawing.Size(130, 22);
             this.txtNPaiNoDomAux.TabIndex = 365;
             // 
+            // btnSunat
+            // 
+            this.btnSunat.Location = new System.Drawing.Point(673, 55);
+            this.btnSunat.Name = "btnSunat";
+            this.btnSunat.Size = new System.Drawing.Size(19, 23);
+            this.btnSunat.TabIndex = 366;
+            this.btnSunat.Text = "s";
+            this.btnSunat.UseVisualStyleBackColor = true;
+            this.btnSunat.Click += new System.EventHandler(this.btnSunat_Click);
+            // 
             // wEditAuxiliar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.ClientSize = new System.Drawing.Size(703, 404);
+            this.Controls.Add(this.btnSunat);
             this.Controls.Add(this.txtNPaiNoDomAux);
             this.Controls.Add(this.txtCPaiNoDomAux);
             this.Controls.Add(this.label10);
@@ -474,6 +486,7 @@
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.txtCPaiNoDomAux, 0);
             this.Controls.SetChildIndex(this.txtNPaiNoDomAux, 0);
+            this.Controls.SetChildIndex(this.btnSunat, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -517,5 +530,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtCPaiNoDomAux;
         private System.Windows.Forms.TextBox txtNPaiNoDomAux;
+        private System.Windows.Forms.Button btnSunat;
     }
 }

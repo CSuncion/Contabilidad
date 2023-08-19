@@ -137,9 +137,9 @@ namespace Presentacion.Procesos
 
         public void VentanaAdicionar()
         {
-            txtPerCajBco.Text = this.wCajBco.lblDescripcionPeriodo.Text;
-            wano = this.txtPerCajBco.Text.Substring(0, 4);
-            wmes = this.txtPerCajBco.Text.Substring(5).ToUpper();
+            this.wCajBco.lblPeriodo.Text = this.wCajBco.lblDescripcionPeriodo.Text;
+            wano = this.wCajBco.lblPeriodo.Text.Substring(0, 4);
+            wmes = this.wCajBco.lblPeriodo.Text.Substring(5).ToUpper();
             this.NumeroMesDelNombreDelMes();
             wperiodo = Universal.gCodigoEmpresa + "-" + wano + "-" + wmes;
             //Buscar Tipo de cambio del periodo
@@ -309,7 +309,22 @@ namespace Presentacion.Procesos
         }
         public bool EsOrigenValido()
         {
-            return Generico.EsCodigoItemGValido("Ori", this.txtCodOri, this.txtDesOri, "Origen");
+            bool result = false;
+            if (this.txtCodOri.Text.Trim() != string.Empty)
+            {
+                string codOri = this.txtCodOri.Text.Trim().Substring(0, 1);
+                if (codOri == "1" || codOri == "2")
+                {
+                    result = Generico.EsCodigoItemGValido("Ori", this.txtCodOri, this.txtDesOri, "Origen");
+                }
+                else
+                {
+                    this.txtCodOri.Text = string.Empty;
+                    this.txtCodOri.Focus();
+                    Mensaje.OperacionDenegada("El codigo de origen no existe", wCajBco.eTitulo);
+                }
+            }
+            return result;
         }
 
         public void ListarFile()
@@ -324,6 +339,7 @@ namespace Presentacion.Procesos
             win.eCtrlValor = this.txtCodFile;
             win.eCtrlFoco = this.dtpFecCorrRegContab;
             win.eIteEN.CodigoTabla = "Fil";
+            win.eIteEN.CodigoItemE = this.txtCodOri.Text.Trim();
             win.eCondicionLista = Listas.wLisItemE.Condicion.ItemsActivosXTabla;
             TabCtrl.InsertarVentana(this, win);
             win.NuevaVentana();
@@ -387,6 +403,7 @@ namespace Presentacion.Procesos
             win.eCtrlValor = this.txtCodCtaBco;
             win.eCtrlFoco = this.txtGirPag;
             win.eCondicionLista = Listas.wLisCueBco.Condicion.CuentasBancoActivas;
+            win.eObjEN.CMoneda = Cmb.ObtenerValor(this.cmbMon);
             TabCtrl.InsertarVentana(this, win);
             win.NuevaVentana();
         }
@@ -528,14 +545,14 @@ namespace Presentacion.Procesos
 
         }
 
+        public void AsignarCuentaBanco()
+        {
+
+        }
+
         private void txtCodOri_DoubleClick(object sender, EventArgs e)
         {
             this.ListarOrigen();
-        }
-
-        private void txtCodOri_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.F1) { this.ListarOrigen(); }
         }
 
         private void txtCodOri_Validating(object sender, CancelEventArgs e)
@@ -648,6 +665,12 @@ namespace Presentacion.Procesos
         private void cmbMon_Validating(object sender, CancelEventArgs e)
         {
             this.ImportesDebeHaber();
+        }
+
+        private void txtCodOri_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            { this.ListarOrigen(); }
         }
 
         private void txtCodCtaBco_KeyDown(object sender, KeyEventArgs e)

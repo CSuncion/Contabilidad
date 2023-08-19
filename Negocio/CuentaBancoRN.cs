@@ -73,6 +73,12 @@ namespace Negocio
             return iObjAD.ListarCuentaBanco(pObj);
         }
 
+        public static List<CuentaBancoEN> ListarCuentaBancoPorMoneda(CuentaBancoEN pObj)
+        {
+            CuentaBancoAD iObjAD = new CuentaBancoAD();
+            return iObjAD.ListarCuentaBancoPorMoneda(pObj);
+        }
+
         public static List<CuentaBancoEN> ListarCuentaBanco()
         {
             //asignar parametros

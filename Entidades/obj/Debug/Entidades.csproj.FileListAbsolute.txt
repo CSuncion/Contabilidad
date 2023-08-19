@@ -24,5 +24,7 @@ C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\obj\Debug\Entidade
 C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Entidades\obj\Debug\Entidades.pdb
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\bin\Debug\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Entidades\obj\Debug\Entidades.pdb

@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using WinControles;
 using Comun;
@@ -14,6 +11,7 @@ using Entidades;
 using Presentacion.FuncionesGenericas;
 using System.Collections;
 using Presentacion.Listas;
+using Presentacion.Utilidades;
 
 namespace Presentacion.Maestros
 {
@@ -30,7 +28,7 @@ namespace Presentacion.Maestros
         Masivo eMas = new Masivo();
 
         #endregion
-        
+
         #region Propietario
 
         public wAuxiliar wAux;
@@ -42,14 +40,14 @@ namespace Presentacion.Maestros
         List<ControlEditar> ListaCtrls()
         {
             List<ControlEditar> xLis = new List<ControlEditar>();
-            ControlEditar xCtrl;                      
+            ControlEditar xCtrl;
 
             xCtrl = new ControlEditar();
             xCtrl.Cmb(this.cmbTipDocAux, "vfff");
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
-            xCtrl.TxtNumeroSinEspacion(this.txtCodAux, true, "Numero", "vfff",11);
+            xCtrl.TxtNumeroSinEspacion(this.txtCodAux, true, "Numero", "vfff", 11);
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
@@ -77,7 +75,7 @@ namespace Presentacion.Maestros
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
-            xCtrl.TxtTodo(this.txtDesAux, true, "Nombre", "vvff",200);
+            xCtrl.TxtTodo(this.txtDesAux, true, "Nombre", "vvff", 200);
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
@@ -99,13 +97,13 @@ namespace Presentacion.Maestros
             xCtrl = new ControlEditar();
             xCtrl.TxtTodo(this.txtRefAux, false, "Referencia", "vvff", 150);
             xLis.Add(xCtrl);
-                        
+
             xCtrl = new ControlEditar();
             xCtrl.TxtTodo(this.txtCPaiNoDomAux, false, "Pais no domiciliado", "vvff", 6);
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
-            xCtrl.txtNoFoco(this.txtNPaiNoDomAux,this.txtCPaiNoDomAux, "ffff");
+            xCtrl.txtNoFoco(this.txtNPaiNoDomAux, this.txtCPaiNoDomAux, "ffff");
             xLis.Add(xCtrl);
 
             xCtrl = new ControlEditar();
@@ -140,21 +138,21 @@ namespace Presentacion.Maestros
             //llenar combos      
             this.CargarClasesAuxiliar();
             this.CargarTiposAuxiliar();
-            this.CargarTiposDocumentoAuxiliar();          
+            this.CargarTiposDocumentoAuxiliar();
             this.CargarEstadosAuxiliar();
 
             // Deshabilitar al propietario
             this.wAux.Enabled = false;
-            
+
             // Mostrar ventana
-            this.Show();            
+            this.Show();
         }
-        
+
         public void VentanaAdicionar()
         {
-            this.InicializaVentana();           
-            this.MostrarAuxiliar(AuxiliarRN.EnBlanco());          
-            eMas.AccionHabilitarControles(0);           
+            this.InicializaVentana();
+            this.MostrarAuxiliar(AuxiliarRN.EnBlanco());
+            eMas.AccionHabilitarControles(0);
             this.EfectoAlCambiarClaseAuxiliar();
             eMas.AccionPasarTextoPrincipal();
             this.cmbTipDocAux.Focus();
@@ -162,9 +160,9 @@ namespace Presentacion.Maestros
 
         public void VentanaModificar(AuxiliarEN pObj)
         {
-            this.InicializaVentana();            
-            this.MostrarAuxiliar(pObj);          
-            eMas.AccionHabilitarControles(1);            
+            this.InicializaVentana();
+            this.MostrarAuxiliar(pObj);
+            eMas.AccionHabilitarControles(1);
             this.EfectoHabilitarAlCambiarClase();
             this.ArmarDescripcionAuxiliar();
             eMas.AccionPasarTextoPrincipal();
@@ -175,7 +173,7 @@ namespace Presentacion.Maestros
         {
             this.InicializaVentana();
             this.MostrarAuxiliar(pObj);
-            eMas.AccionHabilitarControles(0);            
+            eMas.AccionHabilitarControles(0);
             this.EfectoHabilitarAlCambiarClase();
             this.ArmarDescripcionAuxiliar();
             eMas.AccionPasarTextoPrincipal();
@@ -184,18 +182,18 @@ namespace Presentacion.Maestros
 
         public void VentanaEliminar(AuxiliarEN pObj)
         {
-            this.InicializaVentana();            
+            this.InicializaVentana();
             this.MostrarAuxiliar(pObj);
             //this.EfectoHabilitarAlCambiarClase();
             this.ArmarDescripcionAuxiliar();
-            eMas.AccionHabilitarControles(2);          
+            eMas.AccionHabilitarControles(2);
             this.btnAceptar.Focus();
         }
 
         public void VentanaVisualizar(AuxiliarEN pObj)
         {
-            this.InicializaVentana();            
-            this.MostrarAuxiliar(pObj);             
+            this.InicializaVentana();
+            this.MostrarAuxiliar(pObj);
             //this.EfectoHabilitarAlCambiarClase();
             eMas.AccionHabilitarControles(3);
             this.btnCancelar.Focus();
@@ -238,7 +236,7 @@ namespace Presentacion.Maestros
             pObj.ReferenciaAuxiliar = this.txtRefAux.Text.Trim();
             pObj.CTipoAuxiliar = Cmb.ObtenerValor(this.cmbTipAux, string.Empty);
             pObj.NTipoAuxiliar = Cmb.ObtenerTexto(this.cmbTipAux);
-            pObj.CTipoDocumentoAuxiliar = Cmb.ObtenerValor(this.cmbTipDocAux, string.Empty);           
+            pObj.CTipoDocumentoAuxiliar = Cmb.ObtenerValor(this.cmbTipDocAux, string.Empty);
             pObj.CPaisNoDomiciliadoAuxiliar = this.txtCPaiNoDomAux.Text.Trim();
             pObj.CEstadoAuxiliar = Cmb.ObtenerValor(this.cmbEstAux, string.Empty);
             pObj.ClaveAuxiliar = AuxiliarRN.ObtenerClaveAuxiliar(pObj);
@@ -259,12 +257,12 @@ namespace Presentacion.Maestros
             this.txtCorAux.Text = pObj.CorreoAuxiliar;
             this.txtRefAux.Text = pObj.ReferenciaAuxiliar;
             this.cmbTipAux.SelectedValue = pObj.CTipoAuxiliar;
-            this.cmbTipDocAux.SelectedValue = pObj.CTipoDocumentoAuxiliar;         
+            this.cmbTipDocAux.SelectedValue = pObj.CTipoDocumentoAuxiliar;
             this.txtCPaiNoDomAux.Text = pObj.CPaisNoDomiciliadoAuxiliar;
             this.txtNPaiNoDomAux.Text = pObj.NPaisNoDomiciliadoAuxiliar;
             this.cmbEstAux.SelectedValue = pObj.CEstadoAuxiliar;
         }
-        
+
         public void Aceptar()
         {
             switch (this.eOperacion)
@@ -276,7 +274,7 @@ namespace Presentacion.Maestros
                 default: break;
             }
         }
-        
+
         public void Adicionar()
         {
             //validar los campos obligatorios
@@ -386,7 +384,7 @@ namespace Presentacion.Maestros
         {
             //preguntar si este objeto fue eliminado mientras estaba activa la ventana
             if (this.wAux.EsActoEliminarAuxiliar().Adicionales.EsVerdad == false) { return; }
-                       
+
             //desea realizar la operacion?
             if (Mensaje.DeseasRealizarOperacion(this.wAux.eTitulo) == false) { return; }
 
@@ -402,19 +400,19 @@ namespace Presentacion.Maestros
             //salir de la ventana
             this.Close();
         }
-        
+
         public void EliminarAuxiliar()
         {
             AuxiliarEN iPerEN = new AuxiliarEN();
             this.AsignarAuxiliar(iPerEN);
             AuxiliarRN.EliminarAuxiliar(iPerEN);
         }
-                
+
         public bool EsCodigoAuxiliarDisponible()
         {
             //cuando la operacion es diferente del adicionar o copiar entonces retorna verdadero
             if (MiForm.VerdaderoCuandoSoloAdicionaYCopia((int)eOperacion) == false) { return true; }
-           
+
             //validar
             AuxiliarEN iAuxEN = new AuxiliarEN();
             this.AsignarAuxiliar(iAuxEN);
@@ -469,7 +467,7 @@ namespace Presentacion.Maestros
             iLisConVF.Add(this.txtSegNomAux, "vf");
             iLisConVF.Add(this.txtDesAux, "fv");
             iLisConVF.Add(this.txtCPaiNoDomAux, "fv");
-           
+
 
             //devolver
             return iLisConVF;
@@ -545,12 +543,27 @@ namespace Presentacion.Maestros
         {
             Generico.CancelarVentanaEditar(this, eOperacion, eMas, this.wAux.eTitulo);
         }
-        
+
+        public async void peticionSunatRuc()
+        {
+            AuxiliarSunatEN aux = new AuxiliarSunatEN()
+            {
+                token = "CMrogiyPeqv9TcxcceYBrGlGwAx7uRb7KS0WOuxrlBAA77glqbLAT7lCKRwq",
+                ruc = this.txtCodAux.Text.Trim()
+            };
+            //Instanciamos un objeto Reply
+            Reply oReply = new Reply();
+            //poblamos el objeto con el método generic Execute
+            oReply = await Consumer.Execute<AuxiliarSunatEN>("https://api.migo.pe/api/v1/ruc ", Utilidades.methodHttp.POST, aux);
+            //Mostramos el statuscode devuelto, podemos añadirle lógica de validación
+            MessageBox.Show(oReply.StatusCode);
+        }
+
         #endregion
 
         private void wEditAuxiliar_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.wAux.Enabled = true;           
+            this.wAux.Enabled = true;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -593,6 +606,9 @@ namespace Presentacion.Maestros
             this.ListarPaisesNoDomiciliados();
         }
 
-    
+        private void btnSunat_Click(object sender, EventArgs e)
+        {
+            this.peticionSunatRuc();
+        }
     }
 }

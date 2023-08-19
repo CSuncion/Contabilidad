@@ -44,6 +44,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.btnSunat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label11
@@ -194,10 +195,21 @@
             this.label7.Text = "Venta";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // btnSunat
+            // 
+            this.btnSunat.Location = new System.Drawing.Point(227, 49);
+            this.btnSunat.Name = "btnSunat";
+            this.btnSunat.Size = new System.Drawing.Size(18, 25);
+            this.btnSunat.TabIndex = 89;
+            this.btnSunat.Text = "S";
+            this.btnSunat.UseVisualStyleBackColor = true;
+            this.btnSunat.Click += new System.EventHandler(this.btnSunat_Click);
+            // 
             // wEditTipoCambio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.ClientSize = new System.Drawing.Size(387, 244);
+            this.Controls.Add(this.btnSunat);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtVenEurTipCam);
@@ -233,6 +245,7 @@
             this.Controls.SetChildIndex(this.txtVenEurTipCam, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.label7, 0);
+            this.Controls.SetChildIndex(this.btnSunat, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,5 +269,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnSunat;
     }
 }

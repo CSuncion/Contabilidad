@@ -12,7 +12,7 @@ using Entidades.Adicionales;
 using Negocio;
 using Entidades;
 using Presentacion.FuncionesGenericas;
-
+using Presentacion.Utilidades;
 
 namespace Presentacion.Maestros
 {
@@ -54,7 +54,7 @@ namespace Presentacion.Maestros
             xCtrl = new ControlEditar();
             xCtrl.TxtNumeroPositivoConDecimales(this.txtVenUsTipCam, true, "Venta Us", "vvff", 3, 6);
             xLis.Add(xCtrl);
-            
+
             xCtrl = new ControlEditar();
             xCtrl.TxtNumeroPositivoConDecimales(this.txtComCadTipCam, false, "Compra Cad", "vvff", 3, 6);
             xLis.Add(xCtrl);
@@ -98,15 +98,15 @@ namespace Presentacion.Maestros
 
             //Deshabilitar al propietario
             this.wTipCam.Enabled = false;
-            
+
             // Mostrar ventana
-            this.Show();            
+            this.Show();
         }
-        
+
         public void VentanaAdicionar()
         {
-            this.InicializaVentana();           
-            this.MostrarTipoCambio(TipoCambioRN.EnBlanco());          
+            this.InicializaVentana();
+            this.MostrarTipoCambio(TipoCambioRN.EnBlanco());
             eMas.AccionHabilitarControles(0);
             eMas.AccionPasarTextoPrincipal();
             this.dtpFecTipCam.Focus();
@@ -114,8 +114,8 @@ namespace Presentacion.Maestros
 
         public void VentanaModificar(TipoCambioEN pObj)
         {
-            this.InicializaVentana();            
-            this.MostrarTipoCambio(pObj);          
+            this.InicializaVentana();
+            this.MostrarTipoCambio(pObj);
             eMas.AccionHabilitarControles(1);
             eMas.AccionPasarTextoPrincipal();
             this.txtComUsTipCam.Focus();
@@ -123,16 +123,16 @@ namespace Presentacion.Maestros
 
         public void VentanaEliminar(TipoCambioEN pObj)
         {
-            this.InicializaVentana();            
-            this.MostrarTipoCambio(pObj);           
+            this.InicializaVentana();
+            this.MostrarTipoCambio(pObj);
             eMas.AccionHabilitarControles(2);
             this.btnAceptar.Focus();
         }
 
         public void VentanaVisualizar(TipoCambioEN pObj)
         {
-            this.InicializaVentana();            
-            this.MostrarTipoCambio(pObj);         
+            this.InicializaVentana();
+            this.MostrarTipoCambio(pObj);
             eMas.AccionHabilitarControles(3);
             this.btnCancelar.Focus();
         }
@@ -161,7 +161,7 @@ namespace Presentacion.Maestros
             this.txtComEurTipCam.Text = Formato.NumeroDecimal(pObj.CompraEurTipoCambio, 3);
             this.txtVenEurTipCam.Text = Formato.NumeroDecimal(pObj.VentaEurTipoCambio, 3);
         }
-        
+
         public void Aceptar()
         {
             switch (this.eOperacion)
@@ -172,7 +172,7 @@ namespace Presentacion.Maestros
                 default: break;
             }
         }
-        
+
         public void Adicionar()
         {
             //validar los campos obligatorios
@@ -189,17 +189,17 @@ namespace Presentacion.Maestros
 
             //mensaje satisfactorio
             Mensaje.OperacionSatisfactoria("El Tipo de cambio se adiciono correctamente", this.wTipCam.eTitulo);
-                     
+
             //actualizar al propietario
             this.wTipCam.eClaveDgvTipCam = this.dtpFecTipCam.Text;
             this.wTipCam.ActualizarVentana();
 
             //limpiar controles
             this.MostrarTipoCambio(TipoCambioRN.EnBlanco());
-            eMas.AccionPasarTextoPrincipal();         
+            eMas.AccionPasarTextoPrincipal();
             this.dtpFecTipCam.Focus();
         }
-        
+
         public void AdicionarTipoCambio()
         {
             TipoCambioEN iPerEN = new TipoCambioEN();
@@ -241,12 +241,12 @@ namespace Presentacion.Maestros
             this.AsignarTipoCambio(iPerEN);
             TipoCambioRN.ModificarTipoCambio(iPerEN);
         }
-        
+
         public void Eliminar()
         {
             //preguntar si este objeto fue eliminado mientras estaba activa la ventana
             if (this.wTipCam.EsActoEliminarTipoCambio().Adicionales.EsVerdad == false) { return; }
-                       
+
             //desea realizar la operacion?
             if (Mensaje.DeseasRealizarOperacion(this.wTipCam.eTitulo) == false) { return; }
 
@@ -262,14 +262,14 @@ namespace Presentacion.Maestros
             //salir de la ventana
             this.Close();
         }
-        
+
         public void EliminarTipoCambio()
         {
             TipoCambioEN iPerEN = new TipoCambioEN();
             this.AsignarTipoCambio(iPerEN);
             TipoCambioRN.EliminarTipoCambio(iPerEN);
         }
-                
+
         public bool EsCodigoTipoCambioDisponible()
         {
             //cuando la operacion es diferente del adicionar entonces retorna verdadero
@@ -285,17 +285,31 @@ namespace Presentacion.Maestros
             }
             return iPerEN.Adicionales.EsVerdad;
         }
-      
+
         public void Cancelar()
         {
             Generico.CancelarVentanaEditar(this, eOperacion, eMas, this.wTipCam.eTitulo);
         }
-        
+
+        public async void peticionSunatTipoCambio()
+        {
+            TipoCambioSunatEN tipCam = new TipoCambioSunatEN()
+            {
+                token = "CMrogiyPeqv9TcxcceYBrGlGwAx7uRb7KS0WOuxrlBAA77glqbLAT7lCKRwq",
+                fecha = this.dtpFecTipCam.Text.Substring(6, 4) + "-" + this.dtpFecTipCam.Text.Substring(3, 2) + "-" + this.dtpFecTipCam.Text.Substring(0, 2)
+            };
+            //Instanciamos un objeto Reply
+            Reply oReply = new Reply();
+            //poblamos el objeto con el método generic Execute
+            oReply = await Consumer.Execute<TipoCambioSunatEN>("https://api.migo.pe/api/v1/exchange/date", Utilidades.methodHttp.POST, tipCam);
+            //Mostramos el statuscode devuelto, podemos añadirle lógica de validación
+            MessageBox.Show(oReply.StatusCode);
+        }
         #endregion
 
         private void wEditTipoCambio_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.wTipCam.Enabled = true;           
+            this.wTipCam.Enabled = true;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -308,6 +322,9 @@ namespace Presentacion.Maestros
             this.Cancelar();
         }
 
-        
+        private void btnSunat_Click(object sender, EventArgs e)
+        {
+            this.peticionSunatTipoCambio();
+        }
     }
 }

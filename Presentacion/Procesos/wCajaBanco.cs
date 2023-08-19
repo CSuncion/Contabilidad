@@ -93,7 +93,9 @@ namespace Presentacion.Procesos
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.NFil, "File", 100));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.CorRegConCab, "Numero Voucher", 120));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.FecRegConCab, "Fecha Voucher", 70));
+            iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.ImpSolRegConCab, "Monto", 70));
             iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.CodCue, "Codigo Cuenta", 90));
+            //iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN., "Codigo Cuenta", 90));
             //iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.NAut, "Automatica", 70));
             //iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.CodCueAut1, "Automatica1", 100));
             //iLisRes.Add(Dgv.NuevaColumnaTextCadena(RegContabCabeEN.CodCueAut2, "Automatica2", 100));

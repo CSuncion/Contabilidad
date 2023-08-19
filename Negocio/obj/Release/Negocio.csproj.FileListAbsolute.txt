@@ -1,0 +1,13 @@
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Negocio.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Negocio.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Comun.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Datos.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Entidades.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\ScriptBD.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Datos.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Release\Entidades.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Release\Negocio.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Release\Negocio.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Release\Negocio.csproj.CopyComplete
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Release\Negocio.dll
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Release\Negocio.pdb

@@ -61,11 +61,14 @@ C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Negocio\obj\Debug\Negocio.dl
 C:\Sistemas_Desarrollo\Empresa_Gabriel\Contabilidad\Negocio\obj\Debug\Negocio.pdb
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Negocio.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Negocio.pdb
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Comun.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Datos.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Entidades.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\ScriptBD.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Datos.pdb
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\bin\Debug\Entidades.pdb
-D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.dll
 D:\Perú Ticcs\Gabriel\Contabilidad\Contabilidad\Negocio\obj\Debug\Negocio.pdb

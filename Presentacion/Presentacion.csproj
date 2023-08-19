@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Presentacion</RootNamespace>
     <AssemblyName>Presentacion</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -35,7 +36,7 @@
   <ItemGroup>
     <Reference Include="Comun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\Comun\bin\Debug\Comun.dll</HintPath>
+      <HintPath>Dll\Comun.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -44,8 +45,9 @@
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="Heredados, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\Heredados\bin\Debug\Heredados.dll</HintPath>
+      <HintPath>..\..\..\Librerias(2010)\Dll\Heredados.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -61,7 +63,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="WinControles, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Librerias\Librerias(2010)\WinControles\bin\Debug\WinControles.dll</HintPath>
+      <HintPath>Dll\WinControles.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -469,6 +471,8 @@
     <Compile Include="Sistema\wUsuario.designer.cs">
       <DependentUpon>wUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utilidades\Consumer.cs" />
+    <Compile Include="Utilidades\Reply.cs" />
     <Compile Include="Varios\wCopiaSeguridad.cs">
       <SubType>Form</SubType>
     </Compile>

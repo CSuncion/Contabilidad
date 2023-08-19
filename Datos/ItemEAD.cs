@@ -209,6 +209,7 @@ namespace Datos
             xSel.CondicionCV(SqlSelect.Reservada.Cuando, ItemEEN.CodEmp, SqlSelect.Operador.Igual, Universal.gCodigoEmpresa);
             xSel.CondicionCV(SqlSelect.Reservada.Y, ItemEEN.CodTab, SqlSelect.Operador.Igual, pObj.CodigoTabla);
             xSel.CondicionCV(SqlSelect.Reservada.Y, ItemEEN.CEstIteE, SqlSelect.Operador.Igual, "1"); //ACTIVOS
+            xSel.CondicionLike(SqlSelect.Reservada.Y, ItemEEN.CodIteE, pObj.CodigoItemE);
             xSel.Ordenar(pObj.Adicionales.CampoOrden, SqlSelect.Orden.Asc);
             return this.ListarObjetos(xSel.ObtenerScript());
         }

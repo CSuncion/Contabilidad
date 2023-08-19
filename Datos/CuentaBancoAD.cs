@@ -265,6 +265,16 @@ namespace Datos
             return this.ListarObjetos(xSel.ObtenerScript());
         }
 
+        public List<CuentaBancoEN> ListarCuentaBancoPorMoneda(CuentaBancoEN pObj)
+        {
+            SqlSelect xSel = new SqlSelect();
+            xSel.SeleccionaVista(this.eVista);
+            xSel.CondicionCV(SqlSelect.Reservada.Cuando, CuentaBancoEN.CodEmp, SqlSelect.Operador.Igual, Universal.gCodigoEmpresa);
+            xSel.CondicionCV(SqlSelect.Reservada.Y, CuentaBancoEN.CMon, SqlSelect.Operador.Igual, pObj.CMoneda);
+            xSel.Ordenar(pObj.Adicionales.CampoOrden, SqlSelect.Orden.Asc);
+            return this.ListarObjetos(xSel.ObtenerScript());
+        }
+
         public CuentaBancoEN BuscarCuentaBancoXClave(CuentaBancoEN pObj)
         {
             SqlSelect xSel = new SqlSelect();

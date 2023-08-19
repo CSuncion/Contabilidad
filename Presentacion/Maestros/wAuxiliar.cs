@@ -19,7 +19,7 @@ using WinControles.Entidades;
 
 namespace Presentacion.Maestros
 {
-    public partial class wAuxiliar : Heredados.MiForm8
+    public partial class wAuxiliar : MiForm8
     {
         public wAuxiliar()
         {
